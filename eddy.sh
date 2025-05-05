@@ -97,7 +97,7 @@ for subj in "${SUBJECTS[@]}"; do
     echo "Finished processing $subj"
     echo "-------------------------------------"
 
-     ############ Clean unnessasay files #########################
+     ############ Clean unnecessasay files #########################
 
      # Paso 3: Limpiar archivos temporales
     rm "eddy_corrected_data.eddy.json"
@@ -114,10 +114,7 @@ for subj in "${SUBJECTS[@]}"; do
     rm "eddy_corrected_data.eddy_outlier_map"
     rm "eddy_corrected_data.eddy_movement_rms"
 
-    echo "✅ Eddy procesado y limpieza completada para $subj"
+    echo "✅ Eddy finished and all the unnecessary files are clened for $subj"
 done
 
-echo "🎉 Todos los sujetos han sido procesados y limpiados"
-
-
-echo "All subjects processed successfully!"
+echo "🎉 all subjects are preprocessed and cleaned."
