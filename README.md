@@ -17,3 +17,4 @@ Used in a clinical study on post-stroke aphasia to streamline and standardize im
 ## 📂 Structure
 - use mask.sh to create brain masks for all of your subjects
 - use eddy.sh to correct eddy current distortion
+- use extractdata.py to extract the statistical data derived from TrackVis to an .csv sheet
